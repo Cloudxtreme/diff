@@ -1,0 +1,13 @@
+#!/bin/csh -f
+
+
+git add -A
+git commit -am "add $file1 and $file2"
+
+cp $argv[1] $argv[2]
+
+git add .
+git commit -am "show me the diff"
+
+
+git push
