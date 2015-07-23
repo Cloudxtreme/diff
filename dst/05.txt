@@ -3,22 +3,13 @@
 /include/ "mt7620n.dtsi"
 
 / {
-	compatible = "zbtlink,zbt-wa05", "ralink,mt7620n-soc";
-	model = "Zbtlink ZBT-WA05";
-
-	chosen {
-		bootargs = "console=ttyS0,115200";
-	};
+	compatible = "wr8305rt", "ralink,mt7620n-soc";
+	model = "ZBT WR8305RT";
 
 	palmbus@10000000 {
 		gpio1: gpio@638 {
 			status = "okay";
 		};
-
-		gpio2: gpio@660 {
-			status = "okay";
-		};
-
 		gpio3: gpio@688 {
 			status = "okay";
 		};
@@ -26,12 +17,12 @@
 		spi@b00 {
 			status = "okay";
 
-			en25q64@0 {
+			m25p80@0 {
 				#address-cells = <1>;
 				#size-cells = <1>;
-				compatible = "w25q64";
+				compatible = "mx25l6405d";
 				reg = <0 0>;
-				linux,modalias = "m25p80";
+				linux,modalias = "m25p80", "en25q64";
 				spi-max-frequency = <10000000>;
 
 				partition@0 {
@@ -54,7 +45,7 @@
 
 				partition@50000 {
 					label = "firmware";
-					reg = <0x50000 0x760000>;
+					reg = <0x50000 0x7b0000>;
 				};
 			};
 		};
@@ -70,7 +61,7 @@
 
 	ethernet@10100000 {
 		mtd-mac-address = <&factory 0x4>;
-		ralink,port-map = "wllll";
+		ralink,port-map = "llllw";
 	};
 
 	wmac@10180000 {
@@ -79,8 +70,12 @@
 
 	pinctrl {
 		state_default: pinctrl0 {
+			ephy {
+				ralink,group = "ephy";
+				ralink,function = "ephy";
+			};
 			default {
-				ralink,group = "i2c", "spi refclk", "wled";
+				ralink,group = "i2c", "uartf", "spi refclk", "wled";
 				ralink,function = "gpio";
 			};
 		};
@@ -88,16 +83,16 @@
 
 	gpio-leds {
 		compatible = "gpio-leds";
-		power {
-			label = "zbtlink:blue:power";
+		sys {
+			label = "wr8305rt:sys";
 			gpios = <&gpio1 14 1>;
 		};
-		usb {
-			label = "zbtlink:blue:usb";
-			gpios = <&gpio1 15 0>;
+		lan {
+			label = "wr8305rt:usb";
+			gpios = <&gpio1 15 1>;
 		};
-		air {
-			label = "zbtlink:blue:air";
+		wifi {
+			label = "wr8305rt:wifi";
 			gpios = <&gpio3 0 1>;
 		};
 	};
