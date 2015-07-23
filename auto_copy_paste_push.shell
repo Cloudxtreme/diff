@@ -2,7 +2,7 @@
 
 
 git add -A
-git commit -am "add $file1 and $file2"
+git commit -am "add $argv[1] and $argv[2]"
 
 cp $argv[1] $argv[2]
 
