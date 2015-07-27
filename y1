@@ -1,0 +1,20 @@
+root@HaiWifi:~# cat /proc/cpuinfo
+system type		: Ralink MT7620A ver:2 eco:6
+machine			: Lenovo Y1
+processor		: 0
+cpu model		: MIPS 24KEc V5.0
+BogoMIPS		: 385.84
+wait instruction	: yes
+microsecond timers	: yes
+tlb_entries		: 32
+extra interrupt vector	: yes
+hardware watchpoint	: yes, count: 4, address/irw mask: [0x0ffc, 0x0ffc, 0x0ffb, 0x0ffb]
+isa			: mips1 mips2 mips32r1 mips32r2
+ASEs implemented	: mips16 dsp
+shadow register sets	: 1
+kscratch registers	: 0
+core			: 0
+VCED exceptions		: not available
+VCEI exceptions		: not available
+
+
