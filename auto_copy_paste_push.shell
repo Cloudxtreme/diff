@@ -1,6 +1,15 @@
 #!/bin/csh -f
 
 
+diff $argv[1] $argv[2] > /dev/null 
+
+
+if ($? == 0) then
+#    echo  -e "no differenrce \n do nothing \n"
+    echo   "no differenrce  do nothing "
+else 
+
+
 git add -A
 git commit -am "add $argv[1] and $argv[2]"
 
@@ -11,3 +20,6 @@ git commit -am "show me the diff"
 
 
 git push
+
+
+endif
