@@ -7,6 +7,9 @@ diff $argv[1] $argv[2] > /dev/null
 if ($? == 0) then
 #    echo  -e "no differenrce \n do nothing \n"
     echo   "no differenrce  do nothing "
+		rm $argv[1] $argv[2]
+
+    echo   "Deleting the two files"
 else 
 
 
