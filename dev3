@@ -29,8 +29,6 @@ io8logtemp
 klog
 lockstat
 machtrace
-nsmb0
-nsmb1
 null
 pf
 pfm
@@ -228,7 +226,6 @@ ttyre
 ttyrf
 ttys0
 ttys000
-ttys001
 ttys1
 ttys2
 ttys3
