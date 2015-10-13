@@ -1,0 +1,180 @@
+abrt-ccpp hook is installed
+abrtd (pid  2421) is running...
+abrt-dump-oops (pid 2429) is running...
+acpid is stopped
+atd (pid  2518) is running...
+auditd (pid  1944) is running...
+avahi-daemon is stopped
+Frequency scaling not supported under xen kernels
+crond (pid  2458) is running...
+htcacheclean is stopped
+httpd is stopped
+Table: nat
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: security
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: raw
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: mangle
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: filter
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: security
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: raw
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: nat
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+1    MASQUERADE  all  --  10.8.0.0/24          0.0.0.0/0           
+2    MASQUERADE  all  --  10.9.0.0/24          0.0.0.0/0           
+
+Table: mangle
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: filter
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+irqbalance is stopped
+jenkins is stopped
+Checking jexec statusmdmonitor is stopped
+messagebus (pid  1996) is running...
+mysqld dead but subsys locked
+netconsole module not loaded
+Configured devices:
+lo eth0
+Currently active devices:
+lo eth0 tun0
+ntpd is stopped
+Status written to /var/log/messages
+master is stopped
+Process accounting is disabled.
+quota_nld is stopped
+rdisc is stopped
+rngd is stopped
+rsyslogd (pid  1964) is running...
+sandbox is stopped
+saslauthd is stopped
+[37;40;1m[Running Status][0m
+ServerSpeeder is running!
+version              3.10.61.0
+
+[37;40;1m[License Information][0m
+License              8DF7000761959904 (valid on current device)
+MaxSession           unlimited
+MaxTcpAccSession     unlimited
+MaxBandwidth(kbps)   20480
+ExpireDate           2034-12-31
+
+[37;40;1m[Connection Information][0m
+TotalFlow            1640
+NumOfTcpFlows        1640
+TotalAccTcpFlow      1639
+TotalActiveTcpFlow   772
+
+[37;40;1m[Running Configuration][0m
+accif                eth0       
+acc                  1
+advacc               1
+advinacc             0
+wankbps              1000000
+waninkbps            1000000
+csvmode              0
+subnetAcc            0
+maxmode              1
+pcapEnable           0
+smartd is stopped
+snmpd is stopped
+snmptrapd is stopped
+squid dead but pid file exists
+openssh-daemon (pid  2090) is running...
+svnserve is stopped
+vsftpd (pid 2103) is running...

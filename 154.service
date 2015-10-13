@@ -1,0 +1,154 @@
+auditd (pid  1914) is running...
+crond (pid  1979) is running...
+Table: nat
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: security
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: raw
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: mangle
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: filter
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: security
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: raw
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: nat
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: mangle
+Chain PREROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Table: filter
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+
+netconsole module not loaded
+Configured devices:
+lo eth0
+Currently active devices:
+lo eth0
+ntpd (pid  1971) is running...
+master is stopped
+rdisc is stopped
+rsyslogd (pid  1930) is running...
+sandbox is stopped
+saslauthd is stopped
+[37;40;1m[Running Status][0m
+ServerSpeeder is running!
+version              3.10.61.0
+
+[37;40;1m[License Information][0m
+License              8D11BC9C1D10991E (valid on current device)
+MaxSession           3000
+MaxTcpAccSession     3000
+MaxBandwidth(kbps)   20480
+ExpireDate           2034-12-31
+
+[37;40;1m[Connection Information][0m
+TotalFlow            54
+NumOfTcpFlows        54
+TotalAccTcpFlow      54
+TotalActiveTcpFlow   36
+
+[37;40;1m[Running Configuration][0m
+accif                eth0       
+acc                  1
+advacc               1
+advinacc             1
+wankbps              1000000
+waninkbps            1000000
+csvmode              0
+subnetAcc            0
+maxmode              1
+pcapEnable           0
+openssh-daemon (pid  1963) is running...
